@@ -18,10 +18,9 @@ Monitoring volatile crypto markets manually is inefficient. This project solves 
 - **Secure Credentials:** Implements `.env` architecture to keep application passwords and API keys completely hidden from source control.
 
 ## ⚙️ How to Run Locally
-1. Clone the repository: `git clone https://github.com/YourUsername/Crypto-Tracker-Software.git`
+1. Clone the repository: `git clone https://github.com/Altay911/Crypto-Tracker-Software.git`
 2. Create a virtual environment: `python3 -m venv .venv`
 3. Activate it: `source .venv/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
-5. Create a `.env` file in the root directory and add your Gmail App Password:
-   `EMAIL_PASSWORD=your_16_digit_app_password`
+5. Create a `.env` file in the root directory and add your Gmail App Password
 6. Run the script: `python3 crypto_tracker.py`
